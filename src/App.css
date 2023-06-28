@@ -23,3 +23,30 @@
 	color: white;
 	text-align: center;
 }
+
+.card-container {
+	padding: 5rem;
+}
+
+.card {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1.5rem;
+	margin-bottom: 5rem;
+	height: 90%;
+	width: 100%;
+}
+
+.card:hover {
+	cursor: pointer;
+	transition: 0.3s;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.card-img {
+	max-height: 300px;
+}
+
+.no-res {
+	text-align: center;
+}
